@@ -27,4 +27,5 @@ count2 = assignments_pairs.map do |assignment_pair|
   1 if first_assignment_list & second_assignment_list != []
 end.compact
 
+# day 4 part 2
 puts count2.sum
